@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    top: 0;
+    background-image: url(imagens/wine-1952051_1920.jpeg);
+    background-size: 100%;
+    background-position: center;
+    object-fit: cover;
+    font-family: raleway;
+
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+li {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.landing-page {
+    display: flex;
+}
+
+.principal {
+    height: 100vh;
+    object-fit: cover;
+    width: 70%;
+}
+
+.caixa-de-texto {
+    background-color: rgba(255, 255, 255, 0.509);
+    border-radius: 10px;
+    margin: 120px auto;
+    padding: 40px 30px;
+    width: 80%;
+}
+    
+
+.form {
+    background-image: url(imagens/wine-stain-form.png);
+    width: 35%;
+    padding: 50px 23px;
+    font-size: 15px;
+    margin: 16px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(92, 92, 92, 0.31);
+}
+
+.form-titulo {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.campos input {
+    margin-bottom: 15px;;
+}
+
+label {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+select {
+    border: solid 1px rgba(53, 53, 53, 0.29);
+    width: 60%;
+}
+
+select:required:invalid {
+    color: gray;
+    font-family: "Roboto";
+  }
+
+input {
+    display: block;
+    margin: 0;
+    border: solid 1px rgba(53, 53, 53, 0.29);
+}
+
+.checkboxes {
+    display: flex;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.checkbox-esquerda {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.checkbox-direita{
+    flex: 1;
+    margin-left: 1px;
+}
+
+.checkbox-esquerda label{
+    font-size: 10px;
+}
+
+.checkbox-direita label{
+    font-size: 10px;
+}
+
+.checkbox-item {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.campos input{
+    width: 60%;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 15px;
+    vertical-align: top;
+    margin: auto;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: 15px;
+    vertical-align: top;
+    margin: auto;
+}
+
+input[type="submit"] {
+    float: right;
+}
+
+.botao {
+    background-color: #5e1224;
+    color: white;
+    padding: 10px 25px;
+    font-family: "Roboto";
+    font-weight: 500;
+    border: 0px;
+    box-shadow: 2px 2px 2px rgba(92, 92, 92, 0.31);
+    
+}
+
+.botao:hover {
+    background-color: #ee7272;
+}

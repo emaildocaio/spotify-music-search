@@ -6,8 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Vinho</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <section class="landing-page">
+        <div class="principal">
+            <div class="caixa-de-texto">
+                <h1>Assine hoje mesmo e receba o seu primeiro kit de vinhos gratuitamente!</h1>
+                <h2>Que tal passar deliciosos momentos saboreando as nossas seleções de vinhos especialmente escolhidas para você?</h2>
+                <h3>Benefícios</h3>
+                <ul>
+                    <li>Benefício 1 - Vinhos especialmente selecionados pelos nossos especialistas.</li>
+                    <li>Benefício 2 - Não precisa pagar frete!</li>
+                    <li>Benefício 3 - Revista mensal que vai junto com os seus vinhos contendo notícias e receitas deliciosas.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="form">
+            <h1 class="form-titulo">Lorem ipsum dolor sit amet consectetur adipisg elit. Error quidem dignissimos dolor.</h1>
+            <form action="">
+                <div class="campos">
+                    <label for="nome">Por favor, nos diga o seu nome completo</label>
+                    <input type="text" class="nome" placeholder=" Preencha seu nome completo">
+                    <label for="email">Por favor, nos diga o seu e-mail</label>
+                    <input type="email" class="email" placeholder=" @">
+                    <label for="tipo">Tipo de vinho que prefere:</label><br>
+                    <select id="vinhos" name="vinhos" required> 
+                        <option value="" disabled selected hidden> Selecione uma opção</option>
+                        <option value="">Vinhos brancos</option>
+                        <option value="">Vinhos Rosés</option>
+                        <option value="">Vinhos Tintos</option>
+                        <option value="">Espumantes</option>
+                        <option value="">Vinhos Doces</option>
+                    </select>
+                </div>
+                <div class="checkboxes">
+                    <div class="checkbox-esquerda">
+                        <label for="dia-da-semana">Qual o melhor dia para entrarmos em contato com você?</label>
+                        <div class="checkbox-item">
+                            <input type="radio">
+                            <label>Segunda-feira</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="radio">
+                            <label>Terça-feira</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="radio">
+                            <label>Quarta-feira</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="radio">
+                            <label>Quinta-feira</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="radio" class="item">
+                            <label>Sexta-feira</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="radio">
+                            <label>Sábado</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="radio">
+                            <label>Domingo</label>
+                        </div>
+                    </div>
+                    <div class="checkbox-direita">
+                        <label for="horario">Qual o melhor horário para entrarmos em contato com você?</label>
+                        <div class="checkbox-item">
+                            <input class="teste" type="checkbox">
+                            <label>Manhã</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox">
+                            <label>Manhã</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox">
+                            <label>Noite</label>
+                        </div>
+                    </div>
+                </div>
+                <input class="botao" type="submit" value="Assinar!">
+            </form>
+        </div>
+
+    </section>
     
 </body>
 </html>
